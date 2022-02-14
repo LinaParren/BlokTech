@@ -9,13 +9,12 @@
 
 ### Backend Development
 
-testtesttest
+
 ### Frontend Development
-testtest
 
 
 ## Week 2
-
+Gaat het lukken om iets te pushen?
 
 
 ## Week 3
