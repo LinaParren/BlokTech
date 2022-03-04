@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.logoapp {
+    width: 4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zoeken {
+    width: 1em;
+    height: 1em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.logocafe {
+    width: 6em;
+    height: 6em;
+    border-radius: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    border: 1px solid blue;
+}
