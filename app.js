@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+app.get('/start', (req, res) => {
+  res.render('start');
+});
+
 app.get('/zoeken', (req, res) => {
   res.render('zoeken');
 });
