@@ -14,7 +14,7 @@ app.engine('.hbs', engine({
 app.set('view engine', '.hbs');
 app.set("views", "./views");
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
   res.render('home');
 });
 
