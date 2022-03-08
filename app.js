@@ -2,6 +2,8 @@ const express = require('express')
 const { engine } = require('express-handlebars');
 const app = express();
 
+const port = process.env.PORT || 5000
+
 const path = require('path');
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
@@ -12,7 +14,7 @@ app.engine('.hbs', engine({
 app.set('view engine', '.hbs');
 app.set("views", "./views");
 
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
   res.render('home');
 });
 
@@ -24,4 +26,8 @@ app.get('/verkennen', (req, res) => {
   res.render('verkennen');
 });
 
-app.listen(3000);
+app.get('/inloggen', (req, res) => {
+  res.render('inloggen');
+});
+
+app.listen(port);
