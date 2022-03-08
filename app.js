@@ -1,6 +1,7 @@
 const express = require('express')
 const { engine } = require('express-handlebars');
 const app = express();
+const bodyParser = require('body-parser')
 
 const port = process.env.PORT || 5000
 
