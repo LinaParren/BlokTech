@@ -2,7 +2,7 @@
 
 <p>Vul je gebruikersnaam en wachtwoord in om in te loggen.</p>
 
-<form>
+{{!-- <form>
 	<fieldset>
 		<label for="text">Gebruikersnaam</label>
 		<input type="text" name="inloggen" id="inloggen" required></input>
@@ -11,6 +11,20 @@
 		<label for="text">Wachtwoord</label>
 		<input type="text" name="inloggen" id="inloggen" required></input>
 	</fieldset>
+	</form> --}}
 
-	<input type="submit" value="Log in">
+
+
+<form action='/login' method='POST'>
+	<fieldset>
+		<label for='username'>Gebruikersnaam</label>
+			<input type='text' id='username' name='username' required>
+	</fieldset>
+	<fieldset>
+		<label for='password'>Wachtwoord</label>
+		<input type='password' id='password' name='password' required>
+	</fieldset>
+    <input type='submit' id='button' value='Inloggen'>
 </form>
+
+<a href='accountmaken'>Account aanmaken</a>

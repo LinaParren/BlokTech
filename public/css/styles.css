@@ -98,6 +98,14 @@ input {
     margin-left: 2em;
 }
 
+#button {
+    background-color: #8F4C13;
+    color: white;
+    border: none;
+    height: 2em;
+    border-radius: 0.5em;
+}
+
 label {
     display: block;
     margin-left: 2em;
