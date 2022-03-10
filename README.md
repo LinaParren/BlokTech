@@ -1,6 +1,6 @@
 # Matching Application
 
-(Voor alle informatie over de app, zie wiki > Home)
+(Voor alle informatie over de app, zie <a href="https://github.com/LinaParren/matching_application/wiki">wiki</a>)
 
 ## Idee
 Mijn concept is een applicatie die je kan matchen met cafés. Iedereen heeft een ander beeld van een ideale avond met het ideale café. De ene zoekt klein maar fijn, de ander kan niet genoeg mensen bij elkaar hebben. De app gaat je helpen om jouw ideale café te vinden. Dit kan ook hulpvol zijn als je met een groep op pad gaat. Je kunt dan een café vinden die bij iedereen aansluit.
