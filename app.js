@@ -4,19 +4,21 @@ const app = express();
 const path = require('path')
 require('dotenv').config();
 
+const port = process.env.PORT || 1337
+
 const connectDB = require('./config/db.js')
+
 connectDB();
 
 const bodyparser = require('body-parser');
 app.use(bodyparser.json());
 const urlencodedparser = bodyparser.urlencoded({ extended: false})
-// var bodyParser = require('body-parser');
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
 
-// const cafe = require('./modals/nieuwitem.js')
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-const port = process.env.PORT || 1337
+
 
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
@@ -51,6 +53,8 @@ app.post('/login', urlencodedparser, (req, res) => {
   res.send("Gebruikersnaam: " + req.body.username + "Password: " + req.body.password)
 })
 
+// res.redirect, waarde username
+
 app.get('/accountmaken', (req, res) => {
   res.render('accountmaken');
 });
@@ -60,13 +64,6 @@ app.post('/aangemaakt', urlencodedparser, (req, res) => {
             "E-mailadres: " + req.body.email +
             "Wachtwoord: " + req.body.wachtwoord)
 })
-
-
-// app.post('/nieuwecafe', async (req) => {
-//   const Cafe = new cafe(req.body)
-//   return? await Cafe.save()
-// })
-
 
 app.get('/lijst', (req, res) => {
   res.render('lijst');
