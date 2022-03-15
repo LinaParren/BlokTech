@@ -57,7 +57,7 @@ router.post('/aangemaakt', async (req, res) => {
       console.log("Account aangemaakt!")
       session = req.session;
       session.gebruikersnaam = req.body.gebruikersnaam;
-      return res.status(200).redirect('/verkennen');
+      return res.status(200).redirect('/profiel');
     }
   });
 });

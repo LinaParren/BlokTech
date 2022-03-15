@@ -27,6 +27,7 @@
     "express-session": "^1.17.2",
     "mongoose": "^6.2.4",
     "nodemon": "^2.0.15",
+    "serve": "^13.0.2",
     "sessions": "^0.0.2-7"
   },
   "devDependencies": {
