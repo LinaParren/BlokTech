@@ -5,6 +5,14 @@
 
 	<form action='/aangemaakt' method='POST'>
 		<fieldset>
+				<label for='voornaam'>Voornaam</label>
+				<input type='text' id='voornaam' name='voornaam' required>
+			</fieldset>
+				<fieldset>
+				<label for='achternaam'>Achternaam</label>
+				<input type='text' id='achternaam' name='achternaam' required>
+			</fieldset>
+		<fieldset>
 				<label for='gebruikersnaam'>Gebruikersnaam</label>
 				<input type='text' id='gebruikersnaam' name='gebruikersnaam' required>
 			</fieldset>
@@ -18,3 +26,5 @@
 			</fieldset>
         <input type='submit' id='button' value='Account aanmaken'>
     </form>
+
+{{>footer}}

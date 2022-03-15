@@ -1,0 +1,35 @@
+<h2>Mijn profiel</h2>
+
+<img src='static/images/cafe1.png' class='logocafe' alt='Logo van cafe'>
+
+<section class="profielwijzigen">
+<a class='settings' href='wijzigen'>Gebruikersnaam wijzigen</a>
+
+{{!-- <a class='settings' href='verwijderen'>Profiel verwijderen</a> --}}
+<form action='/verwijderd' method='post'>
+    <input type='submit' id='button' value='Profiel verwijderen'>
+</form>
+
+<form action='/logout' method='POST'>
+    <input type='submit' id='button' value='Log out'>
+</form>
+</section>
+
+
+{{!-- <form action='/wijzigen' method='POST'>
+    <fieldset>
+		<label for='gebruikersnaam'>Gebruikersnaam</label>
+		<input type='text' id='gebruikersnaam' name='gebruikersnaam' required>
+    </fieldset>
+	<fieldset>
+		<label for='password'>Nieuwe gebruikersnaam</label>
+		<input type='password' id='password' name='password' required>
+    </fieldset>
+    <input type='submit' value='Wijzigen'>
+</form>
+
+<form action='/logout' method='POST'>
+    <input type='submit' id='button' value='Log out'>
+</form> --}}
+
+{{>footer}}

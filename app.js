@@ -31,8 +31,8 @@ app.set("views", "./views");
 app.use('/', router);
 app.use('/', user);
 
-app.get('*', (req, res) => {
-  res.status(404).render('404', {'title': 'Error'});
-});
+// app.get('*', (req, res) => {
+//   res.status(404).render('404', {'title': 'Error'});
+// });
 
 app.listen(port);
