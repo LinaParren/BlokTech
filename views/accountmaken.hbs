@@ -2,29 +2,29 @@
 
 <p>Vul je gegevens in om een account aan te maken.</p>
 
+<form action='/aangemaakt' method='POST'>
+	<fieldset>
+		<label for='voornaam'>Voornaam</label>
+		<input type='text' id='voornaam' name='voornaam' required>
+	</fieldset>
+	<fieldset>
+		<label for='achternaam'>Achternaam</label>
+		<input type='text' id='achternaam' name='achternaam' required>
+	</fieldset>
+	<fieldset>
+		<label for='gebruikersnaam'>Gebruikersnaam</label>
+		<input type='text' id='gebruikersnaam' name='gebruikersnaam' required>
+	</fieldset>
+	<fieldset>
+		<label for='email'>E-mailadres</label>
+		<input type='email' id='email' name='email' required>
+	</fieldset>
+	<fieldset>
+		<label for='password'>Wachtwoord</label>
+		<input type='password' id='password' name='password' required>
+	</fieldset>
+	<input type='submit' id='button' value='Account aanmaken'>
+</form>
 
-	<form action='/aangemaakt' method='POST'>
-		<fieldset>
-				<label for='voornaam'>Voornaam</label>
-				<input type='text' id='voornaam' name='voornaam' required>
-			</fieldset>
-				<fieldset>
-				<label for='achternaam'>Achternaam</label>
-				<input type='text' id='achternaam' name='achternaam' required>
-			</fieldset>
-		<fieldset>
-				<label for='gebruikersnaam'>Gebruikersnaam</label>
-				<input type='text' id='gebruikersnaam' name='gebruikersnaam' required>
-			</fieldset>
-            <fieldset>
-				<label for='email'>E-mailadres</label>
-				<input type='email' id='email' name='email' required>
-			</fieldset>
-            <fieldset>
-				<label for='password'>Wachtwoord</label>
-				<input type='password' id='password' name='password' required>
-			</fieldset>
-        <input type='submit' id='button' value='Account aanmaken'>
-    </form>
 
 {{>footer}}

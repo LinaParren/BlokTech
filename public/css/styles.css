@@ -11,6 +11,12 @@ h2 {
     color: #8F4C13;
 }
 
+h3 {
+    text-align: center;
+    color: #8F4C13;
+    font-style: italic;
+}
+
 p {
     margin-left: 1em;
     margin-right: 1em;
@@ -85,10 +91,6 @@ nav {
     margin-right: auto;
 }
 
-h3 {
-    text-align: center;
-}
-
 article {
     border: 1px solid black;
 }
@@ -103,6 +105,11 @@ input {
     margin-left: 2em;
 }
 
+.bewerken {
+    display: block;
+    margin-left: 2em;
+}
+
 #button {
     display: block;
     background-color: #8F4C13;
@@ -110,7 +117,7 @@ input {
     border: none;
     padding: 0.5em;
     border-radius: 0.5em;
-    margin-left: unset;
+    margin-left: 3em;
 }
 
 .profielwijzigen {
@@ -126,8 +133,8 @@ input {
     align-items: center;
     background-color: #8F4C13;
     color: white;
+    font-size: 1em;
     border: none;
-    width: 60%;
     padding: 0.5em;
     margin: 0.4em;
     border-radius: 0.5em;
