@@ -11,6 +11,8 @@ async function getData() {
 function gegevensOphalen(data) {
 	let main = document.querySelector('.verkennen');
 	
+	console.log(data);
+
 	data.forEach(item => {
 		let container = document.createElement('article');
 		
@@ -38,7 +40,9 @@ function gegevensOphalen(data) {
 
 }
 
-getData()
+if(document.querySelector('.verkennen')) {
+	getData()
 	.then(data => {	
         gegevensOphalen(data);
-})
+	})
+}

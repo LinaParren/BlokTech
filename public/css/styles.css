@@ -110,3 +110,12 @@ label {
     display: block;
     margin-left: 2em;
 }
+
+/* knop voor inloggen */
+.inloggen {
+    background-color: #8F4C13;
+    color: white;
+    border: none;
+    padding: 0.3em;
+    border-radius: 0.5em;
+}
