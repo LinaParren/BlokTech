@@ -1,16 +1,16 @@
 <h2>Hoi {{gebruikersnaam}}!</h2>
 
-<img src='static/images/profile_pic.png' class='logocafe' alt='Logo van cafe'>
+<img src='static/images/profile_pic.png' class='profiel_pic' alt='Logo van cafe'>
 
-<section class="profielwijzigen">
-    <a class='settings' href='wijzigen'>Profiel bewerken</a>
+<section class="profiel">
+    <a class='profielwijzigen' href='wijzigen'>Profiel bewerken</a>
 
     <form action='/verwijderen' method='post'>
-        <input type='submit' class='settings' value='Profiel verwijderen'>
+        <input type='submit' class='profielwijzigen' value='Profiel verwijderen'>
     </form>
 
     <form action='/logout' method='POST'>
-        <input type='submit' class='settings' value='Log out'>
+        <input type='submit' class='profielwijzigen' value='Log out'>
     </form>
 </section>
 

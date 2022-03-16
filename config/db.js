@@ -1,3 +1,4 @@
+// Koppel de database -> MongoDB
 const mongoose = require('mongoose');
 
 const connectDB = () => {
@@ -6,8 +7,10 @@ const connectDB = () => {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
+        // Geef in de terminal aan dat koppelen gelukt is
         console.log('DB - connected');
     } catch (error) {
+        // Geef in de terminal aan dat koppelen niet gelukt is
         console.log('error occured while trying', error);
         throw error;
     }

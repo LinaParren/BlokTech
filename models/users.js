@@ -1,6 +1,8 @@
+// Roep de database aan
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Gegevens die nodig zijn om een account aan te maken
 const Users = new Schema({
     voornaam: {
         type: String,
