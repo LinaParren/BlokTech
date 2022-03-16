@@ -34,4 +34,4 @@ Om het project te installeren moet je de volgende stappen uitvoeren. Zorg dat je
 
 
 ## License
-Klik hier om de <a href='https://github.com/LinaParren/matching_application/blob/main/LICENSE'>license</a>te bekijken
+Klik hier om de <a href='https://github.com/LinaParren/matching_application/blob/main/LICENSE'>license</a> te bekijken
