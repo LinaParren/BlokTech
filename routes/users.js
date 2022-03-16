@@ -82,9 +82,7 @@ router.post('/logout', (req, res) => {
 router.post('/verwijderen', (req, res) => {
   session = req.session;
   console.log(session.gebruikersnaam)
-  User.find({
-    gebruikersnaam: session.gebruikersnaam
-  }).deleteOne().exec();
+  User.find({ gebruikersnaam: session.gebruikersnaam }).deleteOne().exec();
   session.destroy();
   res.redirect('/');
 });

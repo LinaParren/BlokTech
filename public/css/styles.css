@@ -103,6 +103,7 @@ fieldset {
     border: none;
     padding: 0.5em;
     border-radius: 0.5em;
+    margin-bottom: 1em;
 }
 
 .profiel {
@@ -125,6 +126,11 @@ label {
     display: block;
 }
 
+.aanmaken {
+    color: #8F4C13;
+    text-decoration: underline;
+}
+
 
 /* Profiel */
 .profiel_pic {
@@ -132,3 +138,16 @@ label {
     height: 6em;
     border-radius: 80%;
 }
+
+
+/* Melding voor fout bij inloggen */
+.errorcss {
+    background: red;
+    color: white;
+    width: 80%;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
+  }
