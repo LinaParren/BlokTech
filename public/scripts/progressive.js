@@ -1,7 +1,8 @@
-
 // Roep betreffende form aan voor progressive enhancement
 const form = document.querySelector(".pe");
 
+// https://bobbyhadz.com/blog/javascript-cannot-read-property-addeventlistener-null
+if (form) {
 form.addEventListener("submit", (event) => {
     // Zorg dat de melding nog niet tevoorschijn komt
 	event.preventDefault();
@@ -18,3 +19,4 @@ form.addEventListener("submit", (event) => {
 		event.target.submit();
 	}
 });
+}
