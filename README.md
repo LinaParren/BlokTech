@@ -1,37 +1,38 @@
 # Matching Application
 
-(Voor alle informatie over de app, zie <a href="https://github.com/LinaParren/matching_application/wiki">wiki</a>)
+(For all information about the app, see <a href="https://github.com/LinaParren/matching_application/wiki">wiki</a>)
+
 
 ## Concept
-Mijn concept is een applicatie die je kan matchen met cafés. Iedereen heeft een ander beeld van een ideale avond met het ideale café. De ene zoekt klein maar fijn, de ander kan niet genoeg mensen bij elkaar hebben. De app gaat je helpen om jouw ideale café te vinden. 
+My concept is an application that can match you with a cafe. Everyone wants something different from a night at the cafe. Someone wants the small and cozy cafes, someone else can't have enough people around him/her. This app is going to help you to find your ideal cafe.  
 
 
 ## Functies
-De gebruiker kan op deze app een eigen account aanmaken waarop hij/zij gegevens op kan slaan en deze terug kan zien. Bij dit account komen een aantal functies kijken:
-* De gebruiker kan een account aanmaken
-* De gebruiker kan op aangemaakt account inloggen en uitloggen
-* De gebruiker kan gegevens van dit account bewerken
-* De gebruiker kan het account verwijderen
+The user can make his or her own account on this app, on which he/she can save data and look back at it. There are some functions that come within the app:
+* The user can make an account
+* The user can log in and out on the account
+* The user can chance data on the account
+* The user can delete the account
 
 
 ## Installatie
-Om het project te installeren moet je de volgende stappen uitvoeren. Zorg dat je een mapje hebt waar het project in komt te staan, en dat je je ook in dit mapje bevindt. 
+To install the project, you must follow the following steps. Make sure that you have a folder in which the project can be saved, and that you are currently in that folder. 
 
-1. Clone de Github lokaal op je computer. Zet deze in een geschikt mapje zodat je het nog terug kan vinden. Je kan dan de repository lokaal bekijken, bewerken en aanpassen!
+1. Clone the Github locally on your computer. Put it in a suited folder, so you can find it again later. You can than locally look at and make changes to the repository.
   ```sh
   git clone https://github.com/LinaParren/matching_application.git
   ```
 
-2. Installeer de NPM Packages zodat alles werkt. Met deze command installeert de terminal alle packages in de repository.
+2. Install the NPM Packages to make sure everything works. With this command, the terminal will install every package in the repository. 
   ```sh
   npm install
   ```
  
-3. Vul deze command in in de terminal om de server op te starten. 
+3. Run this command in the terminal to start the server. 
   ```sh
   npm run start
   ```
 
 
 ## License
-Klik hier om de <a href='https://github.com/LinaParren/matching_application/blob/main/LICENSE'>license</a> te bekijken
+Click here to view the <a href='https://github.com/LinaParren/matching_application/blob/main/LICENSE'>license</a>.
