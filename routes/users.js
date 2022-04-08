@@ -7,6 +7,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 
 // Dit hebben we nodig voor het wachtwoord
 const bcrypt = require('bcrypt');
+// const { Router } = require("express");
 const saltRounds = 10;
 
 // Zorg dat er een sessie is

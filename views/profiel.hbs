@@ -1,12 +1,14 @@
-<h2>Hoi {{gebruikersnaam}}!</h2>
+<h2>Hoi {{gebruikersnaam}}!{{voornaam}}</h2>
+
+<section class="profiel">
 
 <img src='static/images/profile_pic.png' class='profiel_pic' alt='Logo van cafe'>
 
 {{!-- Onderdelen op pagina van profiel --}}
 {{!-- |-> profiel bewerken, verwijderen of uitloggen --}}
-<section class="profiel">
+{{!-- <section class="profiel"> --}}
     <a class='profielwijzigen' href='wijzigen'>Profiel bewerken</a>
-
+ 
     <form action='/verwijderen' method='post'>
         <input type='submit' class='profielwijzigen' value='Profiel verwijderen'>
     </form>

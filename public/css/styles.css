@@ -4,16 +4,17 @@
     list-style-type: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 
 h2 {
     color: #8F4C13;
+    margin-left: 1em;
 }
 
 p {
-    margin-left: 1em;
+    margin-left: 1.5em;
     margin-right: 1em;
 }
 
@@ -78,6 +79,7 @@ nav {
 /* Pagina verkennen */
 .verkennen {
     padding-bottom: 5em;
+    text-align: center;
 }
 
 article {
@@ -94,6 +96,7 @@ h3 {
 /* Pagina inloggen, profiel, zoeken */
 fieldset {
     border: none;
+    margin-left: 0.8em;
 }
 
 #button {
@@ -101,25 +104,57 @@ fieldset {
     color: white;
     font-size: 1em;
     border: none;
+    width: 9em;
     padding: 0.5em;
     border-radius: 0.5em;
+    margin-left: 1.5em;
     margin-bottom: 1em;
+}
+
+input {
+    border: solid 1px black;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.pe {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.pe input {
+    border: none;
+    border-bottom: 0.1em solid black;
+    border-radius: 0;
+    width: 70%;
+}
+
+.veld_wijzigen {
+    border: none;
+    border-bottom: 0.1em solid black;
+    border-radius: 0;
+    width: 70%;
 }
 
 .profiel {
     margin-top: 1em;
+    margin-left: 1.8em;
     display: flex;
     flex-direction: column;
 }
 
 .profielwijzigen {
+    display: block;
     background-color: #8F4C13;
     color: white;
     font-size: 1em;
+    text-align: center;
+    width: 12em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em;
-    margin: 0.4em;
+    margin-top: 0.4em;
 }
 
 label {
@@ -129,6 +164,7 @@ label {
 .aanmaken {
     color: #8F4C13;
     text-decoration: underline;
+    margin-left: 1.7em;
 }
 
 
@@ -136,6 +172,8 @@ label {
 .profiel_pic {
     width: 6em;
     height: 6em;
+    margin-left: 3em;
+    margin-bottom: 2em;
     border-radius: 80%;
 }
 

@@ -45,6 +45,6 @@ function gegevensOphalen(data) {
 if (document.querySelector('.verkennen')) {
 	getData()
 		.then(data => {
-			gegevensOphalen(data);
+			gegevensOphalen(data); 
 		})
 }
