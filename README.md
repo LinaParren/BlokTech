@@ -7,7 +7,7 @@
 My concept is an application that can match you with a cafe. Everyone wants something different from a night at the cafe. Someone wants the small and cozy cafes, someone else can't have enough people around him/her. This app is going to help you to find your ideal cafe.  
 
 
-## Functies
+## Functions
 The user can make his or her own account on this app, on which he/she can save data and look back at it. There are some functions that come within the app:
 * The user can make an account
 * The user can log in and out on the account
@@ -15,7 +15,7 @@ The user can make his or her own account on this app, on which he/she can save d
 * The user can delete the account
 
 
-## Installatie
+## Installation
 To install the project, you must follow the following steps. Make sure that you have a folder in which the project can be saved, and that you are currently in that folder. 
 
 1. Clone the Github locally on your computer. Put it in a suited folder, so you can find it again later. You can than locally look at and make changes to the repository.
